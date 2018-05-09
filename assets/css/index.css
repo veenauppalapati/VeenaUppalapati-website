@@ -1,11 +1,12 @@
 /* specification for the background image to cover the whole browser space in all browsers */
 html {
-    background: url("https://images.unsplash.com/photo-1515862313161-889d84b4b1fc?ixlib=rb-0.3.5&q=85&fm=jpg&crop=entropy&cs=srgb&ixid=eyJhcHBfaWQiOjE0NTg5fQ&s=71fe7757a9d7dc5e4e0a71fe656ef3b4")
+    background: url("../images/Veena-coverphoto.JPG")
       no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    
   }
   /* orange tranparent cover on the right side */
   .overlay {
@@ -23,7 +24,7 @@ html {
   #content {
     background-color: #7797a5;
     width: 60%;
-    height: 400px;
+    height: 150px;
     position: absolute;
     top: 30%;
     left: 30%;
@@ -35,15 +36,13 @@ html {
     width: 60%;
     height: 400px;
     position: absolute;
-    top: 30%;
+    top: 25%;
     left: 30%;
     color: white;
     text-align: center;
     line-height: 200px;
-    font-size: 8em;
-    position: absolute;
-    top: 30%;
-    left: 30%;
+    font-size: 3em;
+  
   }
   
   /* specifications for all the <a> link divs ; Home, portfolio */
@@ -54,7 +53,7 @@ html {
     color: white;
     text-align: center;
     line-height: 200px;
-    font-size: 3em;
+    font-size: 1em;
     position: absolute;
     left: 75%;
     margin-top: 20px;
@@ -62,11 +61,11 @@ html {
   
   /* specified position for Home */
   #link1 {
-    top: 33%;
+    top: 28%;
   }
   /* specified position for Portfolio */
   #link2 {
-    top: 35%;
+    top: 31%;
   }
   
   /* Qualities of alink */
