@@ -1,4 +1,6 @@
 /* specification for the background image to cover the whole browser space in all browsers */
+
+
 html, body {
     background: url("../images/Veena-coverphoto.JPG")
       no-repeat center center fixed;
@@ -18,52 +20,47 @@ html, body {
     position: absolute;
     top: 0px;
     right: 0px;
+    
   }
   
   /* grey box */
   #content {
     background-color: #7797a5;
     height: 150px;
-   position: relative;
-    top:340px;
     opacity: 0.6; 
-
   }
   
   /* full stack web developer text specifications */
  #text {
-  top:180px;
+  /* height: 150px; */
    color: white;
     text-align: center;
-    font-size: 3em;
+    font-size: 2em;
+    padding: 50px 0 50px 0;
  }
   
   /* specifications for all the <a> link divs ; Home, portfolio */
   .link {
     font-family: "copperlate", Sans-serif;
-    
-    left: 30%;
     color: white;
     text-align: center;
-    line-height: 200px;
+    /* line-height: 200px; */
     font-size: 1em;
-    position: absolute;
-    left: 75%;
-    margin-top: 20px;
+    margin-top: 20%;
   }
   
-  /* specified position for Home */
-  #link1 {
-    top: 32%;
-  }
-  /* specified position for Portfolio */
-  #link2 {
-    top: 35%;
-  }
+ 
   
   /* Qualities of alink */
   a {
     text-decoration: none;
     color: white;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .link{
+      margin-top: 80%;
+      margin-left:65%;
+    }
   }
   
