@@ -10,6 +10,17 @@ html, body {
     background-size: cover;
     
   }
+
+  .whiteOverlay {
+    background-color: #fff;
+    width: 60%;
+    height: 100%;
+    opacity: 0.3;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }
+
   /* orange tranparent cover on the right side */
   .overlay {
     background-color: #f25b43;
@@ -21,6 +32,10 @@ html, body {
     top: 0px;
     right: 0px;
     
+  }
+
+  .container-fluid {
+    opacity: 1;
   }
   
   /* grey box */
