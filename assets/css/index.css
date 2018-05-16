@@ -65,5 +65,8 @@ h1{
    font-size: 70px;
    line-height: 60px;
  }
+ .pinkDiv{
+   height: auto;
+ }
 
 }
