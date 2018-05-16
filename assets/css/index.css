@@ -1,81 +1,37 @@
-/* specification for the background image to cover the whole browser space in all browsers */
 
+  /* specification for the background image to cover the whole browser space in all browsers */
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
 
 html, body {
-    background: url("../images/Veena-coverphoto.JPG")
-      no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    /* background: rgba(255, 255, 255, 0.6) */
     
   }
 
-  .whiteOverlay {
-    background-color: #fff;
-    width: 60%;
-    height: 100%;
-    opacity: 0.3;
-    position: absolute;
-    top: 0px;
-    left: 0px;
+  .image {
+  width: 100%;
+	height:100%;
+	object-fit: cover;
+
   }
 
-  /* orange tranparent cover on the right side */
-  .overlay {
-    background-color: #f25b43;
-    opacity: 0.5;
-    width: 40%;
-    height: 100%;
-    color: white;
-    position: absolute;
-    top: 0px;
-    right: 0px;
-    
-  }
 
-  .container-fluid {
-    opacity: 1;
-  }
-  
-  /* grey box */
-  #content {
-    background-color: #7797a5;
-    height: 150px;
-    opacity: 0.6; 
-  }
-  
-  /* full stack web developer text specifications */
- #text {
-  /* height: 150px; */
-   color: white;
-    text-align: center;
-    font-size: 2em;
-    padding: 50px 0 50px 0;
- }
-  
-  /* specifications for all the <a> link divs ; Home, portfolio */
-  .link {
-    font-family: "copperlate", Sans-serif;
-    color: white;
-    text-align: center;
-    /* line-height: 200px; */
-    font-size: 1em;
-    margin-top: 20%;
-  }
-  
- 
-  
-  /* Qualities of alink */
-  a {
-    text-decoration: none;
-    color: white;
-  }
-  
-  @media only screen and (max-width: 600px) {
-    .link{
-      margin-top: 80%;
-      margin-left:65%;
-    }
-  }
-  
+.whiteOverlay {
+  width: 100%;
+	height:100%;
+  background: rgba(255, 255, 255, 0.8);
+  position: absolute;
+  top:0px;
+
+}
+
+@media only screen and (max-width: 600px) {
+
+}
