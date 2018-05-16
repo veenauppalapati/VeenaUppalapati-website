@@ -40,9 +40,30 @@ html, body {
 .pinkDiv {
   height: 100%;
   background-color: rgba(255, 0, 0, 0.801);
+  
+}
+h1{
+  color: white;
+  font-family: Playfair Display;
+  font-size: 100px;
+  line-height: 106px;
+  font-weight: 400;
+  text-align:center;
 }
 
+.text_wrapper {
+  margin-top: 144.5px;
+}
 
 @media only screen and (max-width: 600px) {
+ .text_wrapper{
+   margin-top: 0px;
+ }
+ 
+ h1{
+   font-weight: 0px;
+   font-size: 70px;
+   line-height: 60px;
+ }
 
 }
