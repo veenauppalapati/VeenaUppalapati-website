@@ -71,6 +71,7 @@ h1{
 .content_wrapper{
   padding: 0 20%;
   color: white;
+  box-sizing: border-box;
 }
 
 @media only screen and (max-width: 600px) {
