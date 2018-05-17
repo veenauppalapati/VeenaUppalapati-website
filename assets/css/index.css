@@ -124,6 +124,15 @@ li {
   text-align: -webkit-match-parent;
 }
 
+.fullscreen_nav_menu_title{
+  border-bottom: white 1px solid;
+  padding:20px;
+  box-sizing: border-box;
+  background-color: rgba(105, 214, 247, 0.733);
+  color: white;
+  font-family: 'Open Sans';
+}
+
 
 @media only screen and (max-width: 600px) {
  .text_wrapper{
