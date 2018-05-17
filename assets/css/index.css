@@ -121,9 +121,24 @@ ul {
   list-style: none;
 }
 
-li {
+.menu li {
   display: list-item;
   text-align: -webkit-match-parent;
+}
+
+.network_links_container ul li{
+  display: inline;
+  text-align: center;
+}
+
+.network_links_container{
+  position: fixed;
+  bottom:10%;
+  left:50%;
+  margin:0px;
+  box-sizing: border-box;
+ 
+  transform: translate(-50%, -50%);
 }
 
 .fullscreen_nav_menu_title{
@@ -140,6 +155,7 @@ li {
   color:rgb(255, 255, 255); 
   opacity:1;
 }
+
 
 
 @media only screen and (max-width: 600px) {

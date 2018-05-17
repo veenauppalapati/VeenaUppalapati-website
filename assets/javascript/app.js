@@ -7,6 +7,8 @@ $(document).ready(function(){
         $(".fullscreen_nav_menu").show();
         $('.title_mobile').hide();
         $('.hamburger_icon_wrapper').hide();
+        $('.shallHide').hide();
+        $('.pinkDiv').hide(); 
     });
 
     $("#close_icon").click(function(){
