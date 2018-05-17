@@ -73,6 +73,8 @@ h1{
   color: white;
   box-sizing: border-box;
 }
+
+.close_icon_wrapper,
 .hamburger_icon_wrapper{
   margin:20px;
   float:right;
@@ -128,7 +130,7 @@ li {
   border-bottom: white 1px solid;
   padding:20px;
   box-sizing: border-box;
-  background-color: rgba(105, 214, 247, 0.733);
+  background-color: rgba(105, 214, 247, 0.664);
   color: white;
   font-family: 'Open Sans';
 }
