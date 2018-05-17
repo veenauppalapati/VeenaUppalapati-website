@@ -14,6 +14,6 @@ $(document).ready(function(){
         $('.shallHide').show();
         $('.pinkDiv').show(); 
         $('.hamburger_icon_wrapper').show();
-
+        $('.title_mobile').show();
     });
 });

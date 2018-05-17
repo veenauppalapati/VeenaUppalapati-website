@@ -135,6 +135,12 @@ li {
   font-family: 'Open Sans';
 }
 
+#hamburger_icon_fullscreen {
+  font-size:36px; 
+  color:rgb(255, 255, 255); 
+  opacity:1;
+}
+
 
 @media only screen and (max-width: 600px) {
  .text_wrapper{
@@ -162,6 +168,8 @@ li {
   
 }
 
-
+#hamburger_icon_fullscreen {
+ color:rgb(231, 73, 73) !important;
+}
 
 }
