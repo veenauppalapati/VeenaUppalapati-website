@@ -149,5 +149,19 @@ li {
  .pinkDiv{
    height: auto;
  }
+ a{
+  color: white;
+  padding: 9px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: 'Open Sans',sans-serif ;
+  font-weight: 800;
+  font-size: 25px;
+  line-height: 20px;
+  
+}
+
+
 
 }
