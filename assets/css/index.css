@@ -32,15 +32,22 @@ html, body {
 
 }
 
+
 .shallHide {
   width:100%;
   height:100%;
 }
 
+
 .pinkDiv {
   height: 100%;
-  background-color: rgba(255, 0, 0, 0.801);
-  
+  background-color: rgba(255, 0, 0, 0.801);  
+
+}
+
+.pinkDiv_replicated_dimensions {
+ height: 12%;
+  background-color: rgba(0, 255, 128, 0.801);  
 }
 h1{
   color: white;
@@ -80,15 +87,14 @@ h1{
   float:right;
   box-sizing: border-box;
   position: absolute;
-  right:0;
-
-  
+  right:0;  
 }
 
 .fullscreen_nav_menu{
   background-color: rgba(255, 0, 0, 0.801);
   width:100%;
   height: 100%;
+  
   
 }
 
@@ -130,16 +136,16 @@ ul {
 
 .network_links_container ul li{
   display: inline;
-  text-align: center;
+
 }
 
 .network_links_container{
-  position: fixed;
+  position: absolute;
+  left:75%;
   bottom:10%;
-  left:50%;
-  margin:0px;
+  transform: translate(-50%, 0);
   box-sizing: border-box;
-  transform: translate(-50%, -50%);
+
 }
 
 .fullscreen_nav_menu_title{
@@ -155,6 +161,11 @@ ul {
   font-size:36px; 
   color:rgb(255, 255, 255); 
   opacity:1;
+  cursor: pointer;
+}
+
+#close_icon{
+  cursor: pointer;
 }
 
 
@@ -171,6 +182,7 @@ ul {
  }
  .pinkDiv{
    height: auto;
+   
  }
  a{
   color: white;
@@ -192,7 +204,7 @@ ul {
 .network_links_container{
   position: fixed;
     bottom: 0;
-    left: 0;
+    right: 0;
   margin-left:20%;
   box-sizing: border-box;
   transform: translate(-50%, -50%);
