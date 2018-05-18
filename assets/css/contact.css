@@ -1,0 +1,10 @@
+.form-group {
+    padding: 10px 50px;
+}
+
+button{
+    position:absolute;
+    left:50%;
+    transform: translate(-50%, 0);
+    width: 30%;
+}
