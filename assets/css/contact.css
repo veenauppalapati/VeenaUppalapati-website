@@ -1,10 +1,7 @@
 
-body{
-    background-color: rgba(255, 0, 0, 0.589);  
-}
 .form-group {
     padding: 10px 50px;
-    color:white;
+    color:rgb(0, 0, 0);
 }
 
 button{
