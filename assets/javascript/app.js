@@ -9,6 +9,7 @@ $(document).ready(function(){
         $('.hamburger_icon_wrapper').hide();
         $('.shallHide').hide();
         $('.pinkDiv').hide(); 
+        $('.network_links_container').hide();
     });
 
     $("#close_icon").click(function(){
@@ -17,5 +18,6 @@ $(document).ready(function(){
         $('.pinkDiv').show(); 
         $('.hamburger_icon_wrapper').show();
         $('.title_mobile').show();
+        $('.network_links_container').show();
     });
 });
