@@ -15,6 +15,7 @@ body{
     width:100vw;
     height: 100vh;
     background-color: rgba(24, 23, 23, 0.938);
+  
 }
 
 .content-wrapper{
@@ -67,6 +68,20 @@ body{
       transform: translate(-50%, 0);
 
   }
+ 
+.headerColor{
+background-color:#FA3945;  
+color:white;
+}
+  /* portfolio header specifications */
+  .portfolio_header{
+    background-color: rgba(24, 23, 23, 0.938);
+  
+  }
+
+  .portfolio_menu_title{
+    color:white;
+  }
 
   /* from here its the header specifications until the next one */
 
@@ -83,6 +98,7 @@ body{
     position: absolute;
     right:0;  
     padding-left:10px;
+    cursor:pointer;
   }
  
 .hamburger_icon_wrapper{
