@@ -10,6 +10,7 @@ $(document).ready(function(){
         $('.shallHide').hide();
         $('.pinkDiv').hide(); 
         $('.network_links_container').hide();
+        $('#contactForm').hide();
     });
 
     $("#close_icon").click(function(){
