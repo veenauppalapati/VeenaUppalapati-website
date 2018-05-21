@@ -34,7 +34,10 @@ body{
   margin-top:20px;
 }
 
+#aboutMe{
 
+  color:white;
+}
 .overlay{
     width:100vw;
     height: 100vh;
