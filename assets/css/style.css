@@ -11,6 +11,30 @@ body{
     
 }
 
+/* portfolio attributes */
+
+.portfolio{
+  width:100vw;
+  height: 100vh;
+  background-color:#FA3945;  
+}
+
+.icon_wrapper{
+  padding: 100px;
+}
+
+.icons{
+  text-align: center;
+  color: white;
+  
+}
+
+.icons h6 {
+  
+  margin-top:20px;
+}
+
+
 .overlay{
     width:100vw;
     height: 100vh;
@@ -90,6 +114,7 @@ color:white;
     width: 100vw;
 
 }
+
   .hamburger_icon_wrapper{
     border-left: black solid 1px;
     margin:20px;
