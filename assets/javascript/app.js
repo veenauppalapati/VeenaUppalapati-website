@@ -31,7 +31,7 @@ $('.portfolio').hide();
         $('.portfolio_header').css('background-color', 'transparent');
         $('.overlay').hide();
         $('.portfolio').toggle();
-        
+       
     });
 
    
