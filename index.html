@@ -11,7 +11,7 @@
     <title>Home</title>
 </head>
 <body>
-    <div class="headerbg">
+    <div class="headerbg" style="position:fixed;">
             <header>
                     <div class="portfolio_header">
                         <div class="hamburger_icon_wrapper">
@@ -40,19 +40,18 @@
                     </div>
                 </header>
     </div>
-    
-    
+     
     <div class="fullscreen_nav_menu">
             
             <div class="menu-container">
                     <ul id="menu-menu" class="menu">
                         <li id="menu-item-home">
-                            <a href="#">
+                            <a href="./index.html">
                                 HOME</a>
                         </li>
 
                         <li id="menu-item-about">
-                            <a href="./index.html">
+                            <a href="./about.html">
                                 ABOUT
                             </a>
                         </li>
@@ -148,13 +147,64 @@
                                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui dolores tempora rerum distinctio expedita enim dolore. Omnis maiores dolor amet animi, officiis quis ducimus temporibus pariatur alias nam eos. Quos.lorem
                         </p>       
                     </div>
-                </div>
-                <div class="row">
-                    <div class="work_Window">
+                </div>  
+            </div>
 
+            <!-- Work window -->
+            <div class="row work_window_row" style="margin:0 !important;">
+                <div class="work_Window">
+                    <div 
+                    id="casestudies_title" 
+                    style="
+                    background-color:white; 
+                    width:100%; 
+                    height:150px;">
+                        <div 
+                        class="casestudies_text"  
+                        style="background-color: rgb(255, 255, 255);
+                         width:80%; height:150px; 
+                         position:absolute; 
+                         left:50%; 
+                         transform:translate(-50%, 0);" >  
+                            <p 
+                            style="color:rgb(7, 7, 7); 
+                            text-align:center; 
+                            position:absolute; 
+                            top:50%; left:50%; 
+                            transform:translate(-50%, -50%);
+                             font-size:50px;
+                             font-family: Playfair Display;            
+                             line-height: 106px;
+                             font-weight: 400;">
+                                Case Studies
+                            </p>
+                        </div>
+                    </div>
+                    
+                    <div class="row" style="margin:0 !important;">
+                        <div class="col-sm-12 col-md-4 col-lg-4 icons" id="work_icon_1">
+                            <a href="">
+                                    <img src="./assets/images/RCB_Network.png" alt="">
+                            </a>
+                              <p style="color:black; padding-top:40px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non laudantium laborum eligendi tempora dignissimos, quidem quod dicta fugit, excepturi provident voluptates ipsam corrupti? Officiis, veritatis quo sit eveniet atque ut.</p>
+                        </div>
+                        <div class="col-sm-12 col-md-4 col-lg-4 icons" id="work_icon_2">
+                                <a href="">
+                                        <img src="./assets/images/RCB_Network.png" alt="">
+                                </a>
+                                <p style="color:black; padding-top:40px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non laudantium laborum eligendi tempora dignissimos, quidem quod dicta fugit, excepturi provident voluptates ipsam corrupti? Officiis, veritatis quo sit eveniet atque ut.</p>
+                        </div>
+                        <div class="col-sm-12 col-md-4 col-lg-4 icons" id="work_icon_3">
+                                <a href="">
+                                        <img src="./assets/images/RCB_Network.png" alt="">
+                                </a>
+                                <p style="color:black; padding-top:40px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non laudantium laborum eligendi tempora dignissimos, quidem quod dicta fugit, excepturi provident voluptates ipsam corrupti? Officiis, veritatis quo sit eveniet atque ut.</p>
+                        </div>
                     </div>
                 </div>
             </div>
+               
+           
 
             <!-- Home Window -->
             <div class="overlay">
