@@ -1,6 +1,13 @@
 /* Overlay attribute specifications */
-
-   .fv h1 {
+@media only screen and (max-width: 768px) {
+  .content-wrapper{
+    width:60%;
+    height:70%;
+    top:50%;
+    transform: translate(-50%, -50%);
+  }
+}
+   /* .fv h1 {
     font-family: Playfair Display;
     font-size: 3em;
     line-height:50px;
@@ -11,4 +18,4 @@
     margin:0;
     transform: translate(-50%, 0);
     box-sizing: border-box;
-  }
+  } */
