@@ -16,7 +16,8 @@ body{
 .portfolio{
   width:100vw;
   height: 100vh;
-  background-color:#FA3945;  
+  background-color:#FA3945; 
+  /* padding-bottom: 200px;  */
  
 }
 
@@ -142,6 +143,7 @@ color:white;
 .fullscreen_nav_menu_header{
     background-color: rgba(24, 23, 23, 0.938);
     width: 100vw;
+    
 
 }
 
@@ -210,9 +212,7 @@ color:white;
   }
 
   .menu-container{
-    /* margin:100px; */
-    /* margin-top:0px; */
-    position: absolute;
+    position: relative;
     top:50%;
     left: 50%;
     box-sizing: border-box;
@@ -247,10 +247,11 @@ color:white;
   
   .fullscreen_network_links_container ul li,
   .network_links_container ul li{
-    display: inline;
+    /* display: inline; */
     margin:0;
     padding:0;
     box-sizing: border-box; 
+    float: left;
   }
 
   .fullscreen_network_links_container ul li a{
@@ -271,10 +272,31 @@ color:white;
     left:50%;
     margin:0;
     transform: translate(-50%, 0);
-   
     box-sizing: border-box;
    
   }
+
+  /* GBM */
+  .whoAmI > h3{
+    text-align: right; 
+    font-weight:400; 
+    font-size:2rem;
+  }
+
+  .whoAmI h4{
+    color: white;
+  }
+
+  .work_Window h2{
+    padding: 40px 0;
+  }
+  .project-description{
+    color:#161616; padding-top:1px;
+  }
+  .menu-container{
+    padding-bottom: 100px;
+  }
+  
   
 
   @media only screen and (max-width: 768px) {
@@ -301,9 +323,7 @@ color:white;
      transform: translate(-50%, -50%);
    }
    .menu-container{
-     position: static;
-     margin-top:50%;
-     margin-left:50%;
+     font-size: 2em;
    }
    
    .network_links_container ul li a{
@@ -323,6 +343,11 @@ color:white;
       font-size: 2em;
       line-height: normal;
     }
+    .menu-container ul li a{
+      font-weight: 400;
+      font-size: 25px;
+      line-height: 12.5px;
+    }
    
  }
    
@@ -337,7 +362,12 @@ color:white;
        box-sizing: border-box;
       
      }
-     .menu-container{
+     .menu-container ul li a{
+      font-weight: 400;
+      font-size: 25px;
+      line-height: 12.5px;
+    }
+     /* .menu-container{
        margin:0;
        position:absolute;
        top:50%;
@@ -345,7 +375,7 @@ color:white;
        transform: translate(-50%, 0);
        font-size:10px !important;
        font-weight:0;
-     }
+     } */
    }
    @media screen and (max-height:300px) {
      .fullscreen_network_links_container ul li a{
@@ -360,14 +390,19 @@ color:white;
        transform: translate(-50%, 0);
        box-sizing: border-box;
       
-     }
-   
+     }   
      .menu-container ul li{
        display: inline;
        font-size: 2px !important;
      }
+      .menu-container ul li a{
+      font-weight: 400;
+      font-size: 25px;
+      line-height: 12.5px;
+    }
    }
 
+   /* GBM */
    @media only screen and (max-width: 600px) {
       .fv{
       color: rgb(163, 163, 163);     
@@ -386,6 +421,32 @@ color:white;
     .portfolio_header{
       z-index: 1;
     }
+    svg{
+      height: 35px;
+      width: 35px;
+    }
+    .icon_wrapper{
+      padding: 100px 20px 20px;
+    }
+    .whoAmI{
+      padding: 10px;
+      text-align: center;
+    }
+    .iconsDiv p{
+      padding-top: 15px;
+      text-align: center;
+    }
+    #work_icon_3{
+      padding-bottom: 50px;
+      border-bottom: 1px dashed #aaa;
+    }
+
+    .menu-container ul li a{
+      font-weight: 400;
+      font-size: 25px;
+      line-height: 12.5px;
+    }
+
   }
 
 
