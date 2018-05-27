@@ -1,0 +1,71 @@
+/* overlay attribute specifications */
+
+.overlay{
+    width:100vw;
+    height: 100vh;
+    background-color: rgba(24, 23, 23, 0.938);
+  
+  }
+  
+  .content-wrapper{
+    background:#161616;
+    height: 100vh;
+    width:40%;
+    /* position: absolute;
+    left:50%;
+    margin:0;
+    transform: translate(-50%, 0); */
+  }
+
+  .motto{
+    width:100%;
+    height:100vh;  
+  }
+  
+  #caretDown_icon{
+      color:white;
+  }
+  
+  .fv{
+    color: rgb(163, 163, 163); 
+    padding:50px;
+    position: absolute;
+    top:50%;
+    right:0;
+    left:0;
+    margin:0;
+    text-align:center;
+    transform: translate(0, -50%);
+  }
+  h1{
+    font-family: Playfair Display;
+    font-size: 5em;
+    line-height: 106px;
+    font-weight: 400;
+    text-align:center;
+  }
+  
+  
+  
+  #caretDown_icon{
+    margin-top: 80px;
+    color: rgb(163, 163, 163); 
+  }
+  
+  .text {
+      width:60%;
+      position: absolute;
+      left:50%;
+      margin:0;
+      transform: translate(-50%, 0);
+  
+  }
+  
+  .headerColor{
+  background-color:#FA3945;  
+  color:white;
+  }
+  
+  /* End of overlay attributes */
+  
+  

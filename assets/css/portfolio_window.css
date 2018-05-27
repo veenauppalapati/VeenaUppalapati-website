@@ -1,0 +1,52 @@
+/* portfolio attributes */
+
+.portfolio{
+    width:100vw;
+    height: 100vh;
+    background-color:#FA3945;  
+   
+  }
+  
+  .icon_wrapper{
+    padding: 100px;
+  }
+  
+  .icons{
+    text-align: center;
+    color: white;
+    
+  }
+  
+  .icons h6 {
+    
+    margin-top:20px;
+  }
+  
+  #aboutMe{
+  
+    color:white;
+  }
+  /* work attributes */
+  
+  .work_Window{
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(255, 255, 255);
+  }
+  
+  
+  
+  
+  
+    /* portfolio header specifications */
+    .portfolio_header{
+      width: 100vw;
+  
+    
+    }
+  
+    .portfolio_menu_title{
+      color:white;
+    }
+  
+    

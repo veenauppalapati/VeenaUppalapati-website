@@ -6,11 +6,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/overlay_container.css">
+    <link rel="stylesheet" href="./assets/css/portfolio_window.css">
+    <link rel="stylesheet" href="./assets/css/fullScreen_Menu.css">
+    
+
+    <!-- Media Queries Links -->
+    <link rel="stylesheet" href="./assets/css/style_max-width_736px.css">
+    <link rel="stylesheet" href="./assets/css/overlay_container_max-width_730px.css">
+    <link rel="stylesheet" href="./assets/css/style_max-height_550px.css">
+    <link rel="stylesheet" href="./assets/css/style_max-height_300px.css">
+
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <title>Home</title>
 </head>
 <body>
+
+
+            <!-- Home Window -->
+            <div class="overlay">     
+                    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 offset-4 content-wrapper">
+                        <div class="motto">
+                            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 fv">
+                                <h1>Looking for a Software Engineer?</h1>  
+                                <div class="text">
+                                    <h6>Dive into the venture of formulating abstract ideas into concrete experience</h6>       
+                                </div>   
+                                <i 
+                                class="fas fa-chevron-circle-down fa-4x"
+                                id="caretDown_icon"></i>   
+                            </div><!-- fv -->    
+                        </div><!-- motto -->
+                    </div><!-- content-wrapper -->
+                </div><!--overlay-->
+                <!--End of Home Window -->
+
+
     <div class="headerbg" style="position:fixed;">
             <header>
                     <div class="portfolio_header">
@@ -200,17 +233,24 @@
                     </div>
                     
                     <div class="row" style="margin:0 !important;">
-                        <div class="col-sm-12 col-md-6 col-lg-6 icons" id="work_icon_1">
-                            <a href="">
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 icons" style="height:20%">
+                            <a href="https://desolate-stream-89948.herokuapp.com/">
                                     <img src="./assets/images/RCB_Network.png" class= 'img-thumbnail' alt="">
                             </a>
-                              <p style="color:black; padding-top:40px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non laudantium laborum eligendi tempora dignissimos, quidem quod dicta fugit, excepturi provident voluptates ipsam corrupti? Officiis, veritatis quo sit eveniet atque ut.</p>
+                              <p style="background-color: #FA3945;; color:white; padding:40px;">
+                                  RCB-Network app is built as an online year book for Rutgers Coding Bootcamp members. The motivation behind this project is for the Aluminis, current students to keep in touch with each other so that the seniors can offer the juniors suggestions, tips etc.
+                                  <br>
+                                  <br>
+                                  <a href="https://desolate-stream-89948.herokuapp.com/" style="color:#aae7ec;">Click here to View RCB-Network</a>
+                              </p>
                         </div>
-                        <div class="col-sm-12 col-md-6 col-lg-6 icons" id="work_icon_2">
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 icons">
                                 <a href="">
-                                        <img src="./assets/images/RCB_Network.png" class= 'img-thumbnail' alt="">
+                                        <img src="./assets/images/FilmHunt.png" class= 'img-thumbnail' style="height:20%;" alt="">
                                 </a>
-                                <p style="color:black; padding-top:40px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non laudantium laborum eligendi tempora dignissimos, quidem quod dicta fugit, excepturi provident voluptates ipsam corrupti? Officiis, veritatis quo sit eveniet atque ut.</p>
+                                <p style="background-color: #FA3945;; color:white; padding:40px;">
+                                    Filmhunt app simulates tinder in its qualities of surfing through random trailers and movie description.  It allows the user to create his/her own playlist with all of their liked trailers so that when they decide to watch they will have the options to watch it through itunes
+                                </p>
                         </div>
                        
                     </div>
@@ -219,24 +259,6 @@
                
            
 
-            <!-- Home Window -->
-            <div class="overlay">
-                 
-                    <div class="content-wrapper">
-                        <div class="motto">
-                            <div class="fv">
-                                <h1>Looking for a Software Engineer?</h1>  
-                                <div class="text">
-                                    <h6>Dive into the venture of formulating abstract ideas into concrete experience</h6>       
-                                </div>
-                                  
-                                <i 
-                                class="fas fa-chevron-circle-down fa-4x"
-                                id="caretDown_icon"></i>   
-                            </div>       
-                        </div>
-                    </div>
-                </div>
        
         </div>
     </div>  
