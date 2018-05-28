@@ -3,7 +3,8 @@ $(document).ready(function(){
     $('#close_icon').hide();
     $('.portfolio').hide();
     $('.work_window_row').hide();
-    $('.portfolio_header').css('border-bottom', 'none');
+  
+    
     // when the hamburger button is triggered
     $("#hamburger_icon_fullscreen").click(function(){       
         $(".fullscreen_nav_menu").show();
@@ -12,7 +13,7 @@ $(document).ready(function(){
         $('#close_icon').show();
         $('#hamburger_icon_fullscreen').hide();
         $('.work_window_row').hide();   
-        $('.portfolio_header').css('border-bottom', '1px white solid');
+     $('.contact_menu_title h3').css('color', 'white');
 
     });
 
@@ -24,7 +25,7 @@ $(document).ready(function(){
         $('#hamburger_icon_fullscreen').toggle();
         $('#close_icon').hide();
         $('.work_window_row').show();
-        $('.portfolio_header').css('border-bottom', 'none');
+        
     });
 
     // When the carat icon is triggered
@@ -37,7 +38,7 @@ $(document).ready(function(){
         $('.portfolio').toggle();
         $('.work_window_row').show();
         $('.fullscree_nav_menu').css('background-color', '#FA3945');   
-        $('.portfolio_header').css('border-bottom', 'none');
+        
     });
 
     // mediaQueryjs
@@ -45,11 +46,11 @@ $(document).ready(function(){
         if (x.matches) { // If media query matches
            $('#caretDown_icon').hide();
            $('.fullscreen_network_links_container').hide();
-           $('.portfolio_header').css('border-bottom', 'none');
+           
         } else {
             $('#caretDown_icon').show();
             $('.fullscreen_network_links_container').show();
-            $('.portfolio_header').css('border-bottom', '1px white solid');
+           
         }
     }
     
