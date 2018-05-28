@@ -1,31 +1,33 @@
 $(document).ready(function(){
     $(".fullscreen_nav_menu").hide();
-$('#close_icon').hide();
-$('.portfolio').hide();
-$('.work_window_row').hide();
-    $("#hamburger_icon_fullscreen").click(function(){
-        
-    //    $(this).removeClass('fa-align-justify').addClass('fa-window-close').attr('id', 'close_icon');
-       $(".fullscreen_nav_menu").show();
-       $('.overlay').hide();
-       $('.portfolio').hide();
-       $('#close_icon').toggle();
-       $('#hamburger_icon_fullscreen').hide();
-       $('.work_window_row').hide();
-       
+    $('#close_icon').hide();
+    $('.portfolio').hide();
+    $('.work_window_row').hide();
+    $('.portfolio_header').css('border-bottom', 'none');
+    // when the hamburger button is triggered
+    $("#hamburger_icon_fullscreen").click(function(){       
+        $(".fullscreen_nav_menu").show();
+        $('.overlay').hide();
+        $('.portfolio').hide();
+        $('#close_icon').show();
+        $('#hamburger_icon_fullscreen').hide();
+        $('.work_window_row').hide();   
+        $('.portfolio_header').css('border-bottom', '1px white solid');
+
     });
 
+    // When the close icon is triggered
     $("#close_icon").click(function(){
-        console.log('hello');
         $(".fullscreen_nav_menu").hide();
-       $('.overlay').hide();
-       $('.portfolio').show();
-       $('#hamburger_icon_fullscreen').toggle();
-       $('#close_icon').hide();
-       $('.work_window_row').show();
-      
+        $('.overlay').hide();
+        $('.portfolio').show();
+        $('#hamburger_icon_fullscreen').toggle();
+        $('#close_icon').hide();
+        $('.work_window_row').show();
+        $('.portfolio_header').css('border-bottom', 'none');
     });
 
+    // When the carat icon is triggered
     $('#caretDown_icon').click(function(){
         $('.headerbg').addClass('headerColor');
         $('h3, #hamburger_icon_fullscreen').css('color', 'white');
@@ -34,10 +36,11 @@ $('.work_window_row').hide();
         $('.overlay').hide();
         $('.portfolio').toggle();
         $('.work_window_row').show();
-        $('.fullscree_nav_menu').css('background-color', '#FA3945');
-       
+        $('.fullscree_nav_menu').css('background-color', '#FA3945');   
+        $('.portfolio_header').css('border-bottom', 'none');
     });
 
+    // mediaQueryjs
     function myFunction(x) {
         if (x.matches) { // If media query matches
            $('#caretDown_icon').hide();
@@ -46,7 +49,7 @@ $('.work_window_row').hide();
         } else {
             $('#caretDown_icon').show();
             $('.fullscreen_network_links_container').show();
-            $('.portfolio_header').css('border-bottom', '2px white solid');
+            $('.portfolio_header').css('border-bottom', '1px white solid');
         }
     }
     

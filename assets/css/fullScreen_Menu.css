@@ -1,9 +1,17 @@
 /* from here its the header specifications until the next one */
+.portfolio_header{
+  width: 100vw;
+ 
+}
+
+.portfolio_menu_title{
+  color:white;
+}
 
 .fullscreen_nav_menu_header{
     background-color: rgba(24, 23, 23, 0.938);
     width: 100vw;
-    border-bottom: 2px white solid;
+    /* border-bottom: 2px white solid; */
 
 }
 
@@ -67,6 +75,7 @@
   }
   #close_icon{
       cursor: pointer;
+      
   }
 
   .menu-container{
