@@ -14,18 +14,22 @@ $(document).ready(function(){
         $('#hamburger_icon_fullscreen').hide();
         $('.work_window').hide();   
      $('.contact_menu_title h3').css('color', 'white');
-
+$('.portfolio_header').css('background-color', '#F43F4E');
     });
 
     // When the close icon is triggered
     $("#close_icon").click(function(){
         $(".fullscreen_nav_menu").hide();
-        $('.overlay').hide();
-        $('.portfolio').show();
+        $('.overlay').show();
+        $('.portfolio').hide();
         $('#hamburger_icon_fullscreen').toggle();
         $('#close_icon').hide();
-        $('.work_window').show();
+        $('.work_window').hide();
+        $('#contactHeader').css('background-color', 'blue');
+        $('#indexHeader').css('background-color', 'transparent');
+        $('.headerbg').removeClass('headerColor');
         
+
     });
 
     // When the carat icon is triggered
@@ -33,11 +37,12 @@ $(document).ready(function(){
         $('.headerbg').addClass('headerColor');
         $('h3, #hamburger_icon_fullscreen').css('color', 'white');
         $('.hamburger_icon_wrapper').css('border-left', '1px solid white');
+        // $('.portfolio_header').css('background-color', 'black');
         $('.portfolio_header').css('background-color', 'transparent');
         $('.overlay').hide();
         $('.portfolio').toggle();
         $('.work_window').show();
-        $('.fullscree_nav_menu').css('background-color', '#FA3945');   
+        // $('.fullscree_nav_menu').css('background-color', 'green');   
         
     });
 
@@ -58,4 +63,6 @@ $(document).ready(function(){
     myFunction(x) // Call listener function at run time
     x.addListener(myFunction) // Attach listener function on state changes
    
+
+
 });

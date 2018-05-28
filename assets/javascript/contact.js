@@ -1,13 +1,16 @@
 $(document).ready(function(){
-    $(".fullscreen_nav_menu").hide();
+    
+    
+    $('#submit').click(function(){
+        var fullName = $('#fullname').val()
+        
+        var subject = $('#subject').val();
+        var messageArea = $('#message-area').val();
+        var messageDetails = `mailto:veena.uppalapati@nyfa.edu?subject=${subject}&body=${messageArea}%0A%0A- ${fullName}`
+        console.log(messageDetails);
 
-    $("#hamburger_icon_fullscreen").click(function(){
-        $(".fullscreen_nav_menu").show();
-       $('.contactForm').hide();
-    });
-
-    $("#close_icon").click(function(){
-        $(".fullscreen_nav_menu").hide();
-       $('.contactForm').show();
-    });
+        $(this).attr('href', messageDetails);
+    })
 });
+// href=
+
