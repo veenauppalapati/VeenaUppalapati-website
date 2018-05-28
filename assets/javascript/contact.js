@@ -10,6 +10,9 @@ $(document).ready(function(){
         console.log(messageDetails);
 
         $(this).attr('href', messageDetails);
+        $('#fullname').val('');
+        $('#subject').val('');
+        $('#message-area').val('');
     })
 });
 // href=
