@@ -34,14 +34,19 @@ $('.work_window_row').hide();
         $('.overlay').hide();
         $('.portfolio').toggle();
         $('.work_window_row').show();
+        $('.fullscree_nav_menu').css('background-color', '#FA3945');
        
     });
 
     function myFunction(x) {
         if (x.matches) { // If media query matches
            $('#caretDown_icon').hide();
+           $('.fullscreen_network_links_container').hide();
+           $('.portfolio_header').css('border-bottom', 'none');
         } else {
             $('#caretDown_icon').show();
+            $('.fullscreen_network_links_container').show();
+            $('.portfolio_header').css('border-bottom', '2px white solid');
         }
     }
     
