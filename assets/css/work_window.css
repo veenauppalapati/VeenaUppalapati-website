@@ -1,0 +1,28 @@
+.work_window{
+    background-color: white;
+    width:100vw;
+    height:100vh;
+    padding-top:12%;
+}
+
+#applicationsBuilt_title h1{
+    text-align: center;
+    font-size: 5rem;
+    padding-bottom: 10px;
+}
+.applications {
+    
+    border: #e9e9e9 solid 0.5px;
+}
+
+@media only screen and (max-width: 600px) {
+    #applicationsBuilt_title h1{
+        font-size: 2rem;
+    }
+
+    .work_window{
+        height:auto;
+        width:auto;
+    }
+    
+}

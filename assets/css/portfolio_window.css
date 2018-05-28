@@ -9,6 +9,8 @@
   
   .icon_wrapper{
     padding: 100px;
+
+   
   }
   
   .icons{
@@ -26,24 +28,12 @@
   
     color:white;
   }
-  /* work attributes */
-  
-  .work_Window{
-  width: 100vw;
-  height: 100vh;
-  background-color: rgb(255, 255, 255);
-  }
-  
 
-    /* portfolio header specifications */
-    /* .portfolio_header{
-      width: 100vw;
-      border-bottom: 1px solid white;
-    
+  @media only screen and (max-width: 768px) {
+    .portfolio{
+      width:auto;
+      height: auto;
+      background-color:#FA3945;  
+     
     }
-  
-    .portfolio_menu_title{
-      color:white;
-    }
-   */
-    
+}

@@ -2,8 +2,8 @@ $(document).ready(function(){
     $(".fullscreen_nav_menu").hide();
     $('#close_icon').hide();
     $('.portfolio').hide();
-    $('.work_window_row').hide();
-  
+    $('.work_window').hide();
+    
     
     // when the hamburger button is triggered
     $("#hamburger_icon_fullscreen").click(function(){       
@@ -12,7 +12,7 @@ $(document).ready(function(){
         $('.portfolio').hide();
         $('#close_icon').show();
         $('#hamburger_icon_fullscreen').hide();
-        $('.work_window_row').hide();   
+        $('.work_window').hide();   
      $('.contact_menu_title h3').css('color', 'white');
 
     });
@@ -24,7 +24,7 @@ $(document).ready(function(){
         $('.portfolio').show();
         $('#hamburger_icon_fullscreen').toggle();
         $('#close_icon').hide();
-        $('.work_window_row').show();
+        $('.work_window').show();
         
     });
 
@@ -36,7 +36,7 @@ $(document).ready(function(){
         $('.portfolio_header').css('background-color', 'transparent');
         $('.overlay').hide();
         $('.portfolio').toggle();
-        $('.work_window_row').show();
+        $('.work_window').show();
         $('.fullscree_nav_menu').css('background-color', '#FA3945');   
         
     });
