@@ -37,5 +37,16 @@ $('.work_window_row').hide();
        
     });
 
+    function myFunction(x) {
+        if (x.matches) { // If media query matches
+           $('#caretDown_icon').hide();
+        } else {
+            $('#caretDown_icon').show();
+        }
+    }
+    
+    var x = window.matchMedia("(max-height: 320px)")
+    myFunction(x) // Call listener function at run time
+    x.addListener(myFunction) // Attach listener function on state changes
    
 });

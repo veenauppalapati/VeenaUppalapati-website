@@ -7,6 +7,7 @@
   
   }
   
+  /* black div that contains all the text and content  */
  .content-wrapper{
   background-color: rgba(24, 23, 23, 0.938); 
   width:40%;
@@ -17,55 +18,59 @@
   transform:translate(-50%,0);
  }
 
-  /* .motto{
+ .motto{
+
     width:100%;
-    height:100vh;  
+    height: 100%;
   }
-  
-  #caretDown_icon{
-      color:white;
-  }
-  
-  .fv{
+
+
+  .fv h1 {
     color: rgb(163, 163, 163); 
-    padding:50px;
-    position: absolute;
-    top:50%;
-    right:0;
-    left:0;
-    margin:0;
-    text-align:center;
-    transform: translate(0, -50%);
-  }
-  h1{
     font-family: Playfair Display;
-    font-size: 5em;
-    line-height: 106px;
+    font-size:5em;
     font-weight: 400;
     text-align:center;
+    position: absolute;
+    top:40%;
+    left:50%;
+    margin:0;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
   }
-  
-  
-  
-  #caretDown_icon{
-    margin-top: 80px;
+
+  .fv h6{
     color: rgb(163, 163, 163); 
-  }
-  
-  .text {
-      width:60%;
+    width:60%;
+    text-align: center;
+    position: absolute;
+    top:65%;
+    left:50%;
+    margin:0;
+    transform: translate(-50%, 0);
+
+}
+
+
+   #caretDown_icon{
+     
+      color:white;
+      color: rgb(163, 163, 163);
       position: absolute;
-      left:50%;
+      bottom:0;
+      left:50%; 
       margin:0;
-      transform: translate(-50%, 0);
-  
+      transform: translate(-50%,0);
+      box-sizing: border-box;
+      margin-bottom: 10%;
   }
-  
+ 
+
   .headerColor{
   background-color:#FA3945;  
   color:white;
-  } */
-  
+  } 
+
   /* End of overlay attributes */
   
   
