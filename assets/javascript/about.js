@@ -21,5 +21,6 @@ $(document).ready(function(){
         $('.title_mobile').show();
         $('.network_links_container').show();
         $('.contact_menu_title h3').css('color', 'rgba(255, 0, 0, 0.801)');
+        $('.portfolio_header').css('background-color', 'transparent');
     });
 });
