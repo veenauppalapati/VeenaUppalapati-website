@@ -4,13 +4,13 @@
     box-sizing: border-box;
 }
 body{
-    background: url('../images/Veena-coverphoto.JPG');   
+    background: url('../images/Veena-coverphoto.JPG') no-repeat;   
     background-size: cover; 
 }
 
 .whiteOverlay {
-    width: 100vw;
-    height:100vh;
+    width: auto;
+    height:auto;
     background: rgba(255, 255, 255, 0.8);
     
   }
@@ -21,7 +21,7 @@ body{
   }
 
   .pinkDiv {
-    height: 100% auto;
+    height: auto;
     background-color: rgba(255, 0, 0, 0.801); 
      
   }
@@ -61,5 +61,18 @@ body{
     #hamburger_icon_fullscreen{
       color: rgba(255, 0, 0, 0.801);
     }
+    .pinkDiv {
+      height: auto;
+      width:auto;
+      background-color: rgba(255, 0, 0, 0.801); 
+       
+    }
    
+}
+@media only screen and (max-width: 940px) {
+  .title_wrapper h1{
+
+     font-size:4em;
+     line-height:60px;
+  }
 }
